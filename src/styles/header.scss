@@ -1,0 +1,118 @@
+.header {
+  height: 655px;
+  background-image: url(../images/headr-back.svg);
+  background-size: cover;
+  padding-left: 130px;
+
+  &__h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: white;
+    padding-top: 24px;
+  }
+
+  &__h1 {
+    width: 586px;
+    height: 118px;
+    margin-top: 48px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+  }
+
+  &__p {
+    width: 580px;
+    height: 56px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 32px;
+
+  }
+
+  &__link {
+    width: 154px;
+    border-radius: 8px;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #3A80BA;
+    padding: 17px 0;
+    text-align: center;
+    display: block;
+  }
+
+  &__phone {
+    width: 267px;
+    height: 549px;
+    position: absolute;
+    right: 236px;
+    top: 76px;
+    background-image: url(../images/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header {
+    padding-left: 4%;
+
+    &__phone {
+      right: 1%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    height: 100%;
+    padding-bottom: 80px;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: -o-linear-gradient(357.91deg, #255D8B 2.29%, #3A80BA 96.79%);
+    background: linear-gradient(92.09deg, #255D8B 2.29%, #3A80BA 96.79%);
+
+    &__phone {
+      display: none;
+    }
+
+    &__h2 {
+      width: 90vw;
+      text-align: center;
+      height: 100%;
+    }
+  
+    &__h1 {
+      width: 90vw;
+      text-align: center;
+      height: 100%;
+      font-size: 36px;
+    }
+  
+    &__p {
+      width: 90vw;
+      text-align: center;
+      height: 100%;
+    }
+
+    &__link {
+      margin-top: 60px;
+    }
+  }
+}

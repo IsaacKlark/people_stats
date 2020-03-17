@@ -1,0 +1,133 @@
+.main-bottom-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+  &__card {
+    width: 380px;
+    margin: 0 10px;
+    border: 2px solid #F1F1F1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: white;
+  }
+
+  &__standard-card {
+    -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  }
+
+  &__h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 19px;
+    margin-top: 32px;
+  }
+
+  &__line {
+    width: 250px;
+    height: 1px;
+    background-image: url(../images/line.svg);
+  }
+
+  &__picture {
+    width: 210px;
+    height: 122px;
+    margin-bottom: 16px;
+  }
+
+  &__basic {
+    background-image: url(../images/basic.svg);
+  }
+
+  &__standard {
+    background-image: url(../images/standard.svg);
+  }
+
+  &__unlimited {
+    background-image: url(../images/unlimited.svg);
+  }
+
+  &__cost {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 24px;
+  }
+
+  &__standard-cost {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: center;
+    color: #3A80BA;
+  }
+
+  &__card p {
+    max-width: 222px;
+    margin: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: #7E7E7E;
+  }
+
+  &__card a {
+    width: 220px;
+    border-radius: 8px;
+    background: #3A80BA;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 17px 0;
+    text-align: center;
+    display: block;
+    margin: 24px 0 40px;
+  }
+
+}
+
+@media (max-width: 1350px) {
+  .main-bottom-cards {
+    &__card {
+      margin: 12px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .main-bottom-cards {
+    padding-left: 0;
+    padding-right: 0;
+
+    &__card {
+      width: 90vw;
+      margin: 12px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
