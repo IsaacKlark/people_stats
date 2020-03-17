@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/people_stats/static/css/main.3762400f.chunk.css",
+    "main.js": "/people_stats/static/js/main.fc856566.chunk.js",
+    "main.js.map": "/people_stats/static/js/main.fc856566.chunk.js.map",
+    "runtime-main.js": "/people_stats/static/js/runtime-main.c82738b9.js",
+    "runtime-main.js.map": "/people_stats/static/js/runtime-main.c82738b9.js.map",
+    "static/js/2.1907d6eb.chunk.js": "/people_stats/static/js/2.1907d6eb.chunk.js",
+    "static/js/2.1907d6eb.chunk.js.map": "/people_stats/static/js/2.1907d6eb.chunk.js.map",
+    "index.html": "/people_stats/index.html",
+    "precache-manifest.3b360bf9b87f4803de8cb53f9c4c2ac7.js": "/people_stats/precache-manifest.3b360bf9b87f4803de8cb53f9c4c2ac7.js",
+    "service-worker.js": "/people_stats/service-worker.js",
+    "static/css/main.3762400f.chunk.css.map": "/people_stats/static/css/main.3762400f.chunk.css.map",
+    "static/js/2.1907d6eb.chunk.js.LICENSE.txt": "/people_stats/static/js/2.1907d6eb.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/people_stats/static/media/waves.9368d949.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c82738b9.js",
+    "static/js/2.1907d6eb.chunk.js",
+    "static/css/main.3762400f.chunk.css",
+    "static/js/main.fc856566.chunk.js"
+  ]
+}
