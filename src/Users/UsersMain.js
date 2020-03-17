@@ -10,7 +10,7 @@ const UsersMain = () => {
           <Link to="/" className="users__gray-link">Main page ></Link>
         </li>
         <li>
-          <Link to="/users" className="users__blue-link">Users statistic</Link>
+          <Link to="/table" className="users__blue-link">Users statistic</Link>
         </li>
       </ul>
 
