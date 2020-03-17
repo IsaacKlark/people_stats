@@ -39,7 +39,7 @@ const HomeMain = () => {
           Collaboratively transition wireless customer service without
           goal-oriented catalysts for change. Collaboratively.
         </p>
-        <a href="#main-middle">Learn more</a>
+        <a href="#">Learn more</a>
       </article>
 
       <article className="main-bottom">
@@ -60,7 +60,7 @@ const HomeMain = () => {
               Push Notifications Data Transfer SQL Database Search &amp; SEO Analytics 
               24/7 Phone Support 2 months technical support 2+ profitable keyword
             </p>
-            <a href="#main-middle">Purchase now</a>
+            <a href="#">Purchase now</a>
           </div>
           
           <div className="main-bottom-cards__card main-bottom-cards__standard-card">
@@ -74,7 +74,7 @@ const HomeMain = () => {
               Push Notifications Data Transfer SQL Database Search &amp; SEO Analytics 
               24/7 Phone Support 2 months technical support 2+ profitable keyword
             </p>
-            <a href="#main-middle">Purchase now</a>
+            <a href="#">Purchase now</a>
           </div>
           
           <div className="main-bottom-cards__card">
@@ -86,7 +86,7 @@ const HomeMain = () => {
               Push Notifications Data Transfer SQL Database Search &amp; SEO Analytics 
               24/7 Phone Support 2 months technical support 2+ profitable keyword
             </p>
-            <a href="#main-middle">Purchase now</a>
+            <a href="#">Purchase now</a>
           </div>
         </section>
       </article>
