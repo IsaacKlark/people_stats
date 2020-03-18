@@ -107,7 +107,8 @@
     display: block;
     margin: 24px 0 40px;
     box-sizing: border-box;
-    transition: background-color 0.5s, color 0.5s;
+    border: 1px solid white;
+    transition: background-color 0.5s, color 0.5s border 0.5s;
   }
 
   &__card a:hover {

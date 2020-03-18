@@ -42,7 +42,9 @@
   padding: 17px 0;
   text-align: center;
   display: block;
-  transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s border 0.5s;
+  border: 1px solid white;
+  box-sizing: border-box;
 }
 .header__link:hover {
   background-color: #3A80BA;
@@ -277,10 +279,12 @@
   z-index: 2;
   position: relative;
   box-sizing: border-box;
-  transition: background-color 0.5s, color 0.5s;
+  border: 1px solid #3A80BA;
+  transition: background-color 0.5s, color 0.5s border 0.5s;
 }
 .main-middle a:hover {
   color: white;
+  box-sizing: border-box;
   background-color: #3A80BA;
   border: 1px solid white;
 }
@@ -520,7 +524,8 @@
   display: block;
   margin: 24px 0 40px;
   box-sizing: border-box;
-  transition: background-color 0.5s, color 0.5s;
+  border: 1px solid white;
+  transition: background-color 0.5s, color 0.5s border 0.5s;
 }
 .main-bottom-cards__card a:hover {
   color: #3A80BA;
