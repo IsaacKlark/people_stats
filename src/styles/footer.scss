@@ -69,6 +69,11 @@
     font-weight: bold;
     color: #3A80BA;
     text-decoration: none;
+    transition: color 0.5s;
+  }
+
+  &__contact-p a:hover {
+    color: #4fafff;
   }
 
   &__form {
@@ -86,6 +91,7 @@
             box-sizing: border-box;
     border-radius: 10px;
     position: relative;
+    padding: 2px 0;
   }
 
   &__form button {
@@ -101,6 +107,14 @@
     color: white;
     outline: 0;
     border: 0;
+    margin-right: 2px;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  &__form button:hover {
+    background-color: white;
+    color: #3A80BA;
+    border: 1px solid #3A80BA;
   }
 
   &__form button:hover {

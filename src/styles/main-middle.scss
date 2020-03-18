@@ -47,6 +47,14 @@
     margin-top: 24px;
     z-index: 2;
     position: relative;
+    box-sizing: border-box;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  & a:hover {
+    color: white;
+    background-color: #3A80BA;
+    border: 1px solid white;
   }
 
   &__leptop {

@@ -6,6 +6,7 @@
       -ms-flex-pack: center;
           justify-content: center;
 
+
   &__card {
     max-width: 380px;
     margin: 0 10px;
@@ -66,7 +67,7 @@
 
 @media (max-width: 1300px) {
   .main-top-cards {
-    padding: 0 4%;
+    padding: 0 32px;
   }
 }
 
